@@ -1,0 +1,72 @@
+#mycarousel{
+    display: block;
+    margin-top: 9rem;
+}
+.carousel-inner {
+    height:40rem;
+}
+#slide1{
+    background-image: url(/img/play.png);
+}
+#slide2{
+    background-image: url(/img/learning.jpeg);
+}
+#slide3{
+    background-image: url(/img/care.png);
+}
+.carousel-caption{
+    top:0px;
+    bottom: auto;
+}
+.carousel-caption h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+    color: rgba(89, 30, 97, 0.795) !important;
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .carousel-caption h3 {
+        font-size: 2em !important;
+    }
+    .carousel-caption h6 , .carousel-caption p{
+        font-size: 1em !important;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .carousel-caption h3 {
+        font-size: 2em !important; 
+    }
+    .carousel-caption h6 , .carousel-caption p{
+        font-size: 1em !important;
+    }
+  }
+  @media (max-width: 480px) and (max-width: 600) {
+    .carousel-caption h3 {
+        font-size: 1em !important;
+    }
+    .carousel-caption h6 , .carousel-caption p{
+        font-size: 1em !important;
+    }
+  }
+.carousel-caption h6 {
+    font-display: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    color: rgb(15, 8, 14) !important;
+}
+.carousel-caption p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    color: rgb(172, 48, 155) !important;
+}
+.carousel-control-prev {
+    background-color: rgba(88, 78, 78, 0.199);
+}
+.carousel-control-next {
+    background-color:  rgba(88, 78, 78, 0.199);
+}
+.carousel-indicators >li{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: black;
+}
